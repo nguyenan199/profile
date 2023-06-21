@@ -1,5 +1,7 @@
 <template>
-  <div class="wrap-info"></div>
+  <div class="wrap-info">
+    <img src="@/assets/nguyenan.jpg" />
+  </div>
 </template>
 
 <script>
@@ -17,5 +19,9 @@ export default {
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   width: 21cm;
   min-height: 29.7cm;
+
+  img {
+    width: 100%;
+  }
 }
 </style>
